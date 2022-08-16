@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.centerdiv {
+  width: 80%;
+  height: 50vh;
+  /* border: 1px solid brown; */
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.centerdiv .content_wrapper {
+  width: 60%;
+  text-align: center;
+}
+
+.inputBox label {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    color: white;
+  }
+  
+.inputBox input[type="file"] {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+.inputBox .divinsidelabel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1faade;
+    border: 3px solid #1faade;
+    border-radius: 10px;
+  }
+
+  .buttonBox button{
+    margin-top: 10px;
+    width: 40%;
+    padding: 15px 30px;
+    background-color: #1faade;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
